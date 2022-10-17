@@ -1,5 +1,24 @@
-<h1>hello</h1>
+<h1>Redirecting...</h1>
+<p>if you are not redirected within 5 second, please contact us at club@salsategusta.nl</p>
 
 <script defer>
-  console.log('test');
+  
+  function getRandomInt(max) {
+    return Math.floor(Math.random() * max);
+  }
+  
+  function array_link($link) {
+    $array = [
+      '1FAIpQLSe900oUsuskboMlK7ltd33OuMADqBLcuLylwBzusPeqCHw1Hg',
+      '1FAIpQLSfSu9W76PhhVkbHvkVq_Ni0rEXLLp3vTZ3N1iOP8RCTixT89A',
+      '1FAIpQLSdHjHjpSMUfymBU4mrkdCfwVnDO45fBYVRPCAYUOmnJ2n35BA',
+      '1FAIpQLScVo6n10OLbns_RBsuICEnlV2bb_nwCVU5avakNIdnltx5Heg'
+    ];
+      return $array[$link)
+  }
+  
+  let $integer = getRandomInt(4);
+  
+  window.location.href = 'https://docs.google.com/forms/d/e/' + array_link($integer) + '/viewform?usp=sf_link';
+  
 </script>
